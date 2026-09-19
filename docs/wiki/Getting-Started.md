@@ -77,6 +77,7 @@ ln -s /usr/share/applications/gnome-mimeapps.list $XDG_CONFIG_HOME/$XDG_CURRENT_
 ```
 
 $XDG_CONFIG_HOME is either not set or empty, a default equal to $HOME/.config should be used
+
 $XDG_CURRENT_DESKTOP is set by the login manager, e.g. GDM, if that is not set replace with niri.
 
 ### NVIDIA
