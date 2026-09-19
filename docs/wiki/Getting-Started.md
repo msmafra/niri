@@ -73,12 +73,12 @@ Some desktop environments and shells work with niri and can give a more out-of-t
 If you install niri alongside GNOME or KDE and want to keep their default app associations (e.g. which image viewer or video player to use), symlink their `mimeapps.list` like so:
 
 ```
-ln -s /usr/share/applications/gnome-mimeapps.list $XDG_CONFIG_HOME/$XDG_CURRENT_DESKTOP-mimeapps.list
+ln -s /usr/share/applications/gnome-mimeapps.list $XDG_CONFIG_HOME/niri-mimeapps.list
 ```
 
 $XDG_CONFIG_HOME is either not set or empty, a default equal to $HOME/.config should be used
 
-$XDG_CURRENT_DESKTOP is set by the login manager, e.g. GDM, if that is not set replace with niri.
+$XDG_CURRENT_DESKTOP is set by the login manager , e.g. GDM, and can be used instead of putting niri.
 
 ### NVIDIA
 
